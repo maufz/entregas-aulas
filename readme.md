@@ -6,8 +6,11 @@
 
 ## Como usar
 
-1. Descargar todas las entregas del grupo
-2. Ubicar los archivos zip siguiendo la estructura a continuación:
+1. Clonar repositorio o descargar desde github
+```bash
+git clone https://github.com/maufz/entregas-aulas.git
+```
+2. Ubicar los archivos zip descargados siguiendo la estructura a continuación:
 
 ```
 .
