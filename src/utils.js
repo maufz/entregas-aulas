@@ -1,3 +1,6 @@
+import fs from "fs/promises";
+import path from "path";
+
 export const esZip = async (filePath) => {
   const stat = await fs.stat(filePath);
   if (!stat.isFile() || path.extname(filePath) != ".zip") {

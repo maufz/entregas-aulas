@@ -36,7 +36,9 @@ const descomprimirGrupo = async (grupo) => {
         /*overwrite*/ true,
       );
       await fs.rm(filePath);
-      console.log(chalk.green(`${path.basename(filePath)} ~> ${newDirName}/`));
+      console.log(
+        chalk.green(`[Listo] ${path.basename(filePath)} ~> ${newDirName}/`),
+      );
     } catch {
       console.warn(`Error: ${filePath}`);
     }
