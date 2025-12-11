@@ -2,7 +2,7 @@ import path from "path";
 import AdmZip from "adm-zip";
 import fs from "fs/promises";
 import chalk from "chalk";
-import { esZip, getNombreEstudiante } from "./utils";
+import { esZip, getNombreEstudiante } from "./utils.js";
 
 const descomprimirGrupo = async (grupo) => {
   if (grupo === "una_carpeta_por_grupo.txt") {
